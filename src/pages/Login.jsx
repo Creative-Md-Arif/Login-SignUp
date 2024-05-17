@@ -32,7 +32,7 @@ const Login = () => {
       console.log('Signed in user:', user);
       
       if (user.emailVerified == true) {
-        toast.error('Signed in successfully');
+        toast.success('Signed in successfully');
         setTimeout(() => {
           navigate('/home');
         }, 3000); 
