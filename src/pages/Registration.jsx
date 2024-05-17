@@ -16,9 +16,9 @@ const Registration = () => {
   // sign up
   
   // Error
-  // const [nameErr, setNameErr] = useState("");
-  // const [emailErr, setEmailErr] = useState("");
-  // const [passwordErr, setPasswordErr] = useState("");
+  const [nameErr, setNameErr] = useState("");
+  const [emailErr, setEmailErr] = useState("");
+  const [passwordErr, setPasswordErr] = useState("");
   // const [message, setMessage] = useState(null);
   const navigate = useNavigate();
 
